@@ -1,0 +1,53 @@
+%link-reset{
+	color: #fff;
+	text-decoration: none;
+}
+
+%dropdown-box{
+	position: absolute;
+	top: 3em;
+	overflow: hidden;
+	background-color: #353535;
+}
+
+// apps & work section divisor
+%section-divide{
+	background-color: $primary-color;
+	height: 6em;
+	text-align: center;
+}
+// apps & work section divisor
+
+// Big title for apps & site sections
+%box-title{
+	font-family: $font-titles;
+	font-size: 5rem;
+	margin: 2.2em 0 0 0;
+	text-align: center;
+	width: 100%;
+}
+// Big title for apps & site sections
+
+// style for "More" button
+%box-link{
+	@extend %link-reset;
+	background-color: #000;
+	border: 2px solid #fff;
+	font-size: 2rem;
+	display: block;
+	margin: 0.5em auto;
+	overflow: hidden;
+	text-align: center;
+	width: 10%;
+}
+// style for "More" button
+
+%little-section-title{
+	color: $primary-color;
+	overflow: hidden;
+	display: inline-block;
+}
+
+%inputs-style{
+	color: #000;
+}

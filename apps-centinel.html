@@ -3,38 +3,42 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<link rel="stylesheet" href="css/normalize.css"/>
-		<link rel="stylesheet" href="css/apps-style.css"/>
+		<link rel="stylesheet" href="css/main.css"/>
 
 		<title>Centinela App - Version 1.0</title>
 	</head><!-- /head -->
 	<body>
 		<header>
 			<nav>
-				<img src="img/logo.png" alt="logo"/>
+				<img src="img/logo.png" class="logo" alt="logo"/>
+				<ul>
+					<li><a href="index.html" class="nav-link">Home</a></li>
 
-				<a class="dropdown" href="#">My work</a>
-                <ul class="dropdown-items">
-                    <li><a href="productos/eventos.html">Web Sites</a></li>
-                    <li><a href="productos/exteriores.html">Mobile apps</a></li>
-                    <li><a href="productos/interiores.html">Photography</a></li>
-                    <li><a href="productos/led.html">3D Renders</a></li>
-                </ul>
-				<a href="#">Experience</a>
-				<a href="#">About me</a>
-				<a href="#">Contact</a>
-				<a href="#">Clients</a>
+		            <li>
+		            	<a href="#" class="nav-link" id= "my-work">My work</a>
+		            	<ul class="dropdown-items">
+	                    	<li><a href="website-iluminada.html" class="dropdown-link">Web Sites</a></li>
+	                    	<li><a href="apps-centinel.html" class="dropdown-link">Mobile apps</a></li>
+		           		</ul>
+		           	</li>
+
+					<li><a href="index.html #experience" class="nav-link">Experience</a></li>
+					<li><a href="index.html #aboutme" class="nav-link">About me</a></li>
+					<li><a href="index.html #contactme" class="nav-link">Contact</a></li>
+					<li><a href="index.html #clients" class="nav-link">Clients</a></li>
+				 </ul>
 			</nav><!-- /nav -->
 
-			<a href="index.html">Home</a>
-			<a href="Apps">Apps - Centinela App - Version 1.0</a>
+			<a href="index.html" class="breadcrumbs">Home -</a>
+			<a href="index.html #mywork-apps" class="breadcrumbs">Apps - Centinela App - Version 1.0</a>
 
 			<h2>Centinela App - Version 1.0</h2>
 
-			<p>My start as a developer of mobile apps... The not so new experience</p>
+			<p class="left-side">My start as a developer of mobile apps... The not so new experience</p>
 		</header><!-- /header -->
 
 		<section class="app-design-frame">
-			<article>
+			<article class="left-side">
 				<h3>Creating the visual Design:</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -47,9 +51,6 @@
 					placerat, velit augue convallis felis, vitae elementum nunc 
 					mi vitae purus. Pellentesque sem lacus, tincidunt sit amet.
 				</p>
-			</article><!-- /article -->
-
-			<article>
 				<h3>Making this app something beautiful to use:</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce 
@@ -63,26 +64,77 @@
 					tincidunt sit amet.
 				</p>
 			</article><!-- /article -->
-			<img src="img/centinel-screenshots1.png"/>
+
+			<img src="img/imagen.png" class="right-side" alt="app screenshots"/>
 		</section><!-- /app-design-frame -->
 
 		<section class="app-develop-experience">
-			<h3>My experience on this process</h3>
-			<img src="img/code-fragment.png" alt="code preview"/>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce 
-				ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit 
-				augue convallis felis, vitae elementum nunc mi vitae purus.
+			<article class="left-side">
+				<h3>My experience on this process</h3>
+				<img src="img/imagen.png" alt="code preview"/>
+				<p>
+					Pellentesque sem lacus, tincidunt sit amet. Lorem ipsum dolor sit 
+					amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed 
+					efficitur. velit nec vulputate placerat, velit augue convallis felis, 
+					vitae elementum nunc mi vitae purus. Pellentesque sem lacus, 
+					tincidunt sit amet.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce 
+					ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit 
+					augue convallis felis, vitae elementum nunc mi vitae purus.
+					Pellentesque sem lacus, tincidunt sit amet. Lorem ipsum dolor sit 
+					amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed 
+					efficitur. velit nec vulputate placerat, velit augue convallis felis, 
+					vitae elementum nunc mi vitae purus. Pellentesque sem lacus, 
+					tincidunt sit amet.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce 
+					ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit 
+					augue convallis felis, vitae elementum nunc mi vitae purus.
+				</p>
+				<img src="img/imagen.png" alt="image"/>
+			</article><!-- /left side -->
+			
+			<article class="right-side">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce 
+					ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit 
+					augue convallis felis, vitae elementum nunc mi vitae purus.
 
-				Pellentesque sem lacus, tincidunt sit amet. Lorem ipsum dolor sit 
-				amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed 
-				efficitur. velit nec vulputate placerat, velit augue convallis felis, 
-				vitae elementum nunc mi vitae purus. Pellentesque sem lacus, 
-				tincidunt sit amet.
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce 
-				ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit 
-				augue convallis felis, vitae elementum nunc mi vitae purus.
-			</p>
+					Pellentesque sem lacus, tincidunt sit amet. Lorem ipsum dolor sit 
+					amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed 
+					efficitur. velit nec vulputate placerat, velit augue convallis felis, 
+					vitae elementum nunc mi vitae purus. Pellentesque sem lacus, 
+					tincidunt sit amet.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce 
+					ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit 
+					augue convallis felis, vitae elementum nunc mi vitae purus.
+
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce 
+					ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit 
+					augue convallis felis, vitae elementum nunc mi vitae purus.
+
+					Pellentesque sem lacus, tincidunt sit amet. Lorem ipsum dolor sit 
+					amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed 
+					efficitur. velit nec vulputate placerat, velit augue convallis felis, 
+					vitae elementum nunc mi vitae purus. Pellentesque sem lacus, 
+					tincidunt sit amet.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce 
+					ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit 
+					augue convallis felis, vitae elementum nunc mi vitae purus.
+				</p>
+				<img src="img/imagen.png" alt="image"/>
+				<p>
+					Pellentesque sem lacus, tincidunt sit amet. Lorem ipsum dolor sit 
+					amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed 
+					efficitur. velit nec vulputate placerat, velit augue convallis felis, 
+					vitae elementum nunc mi vitae purus. Pellentesque sem lacus, 
+					tincidunt sit amet.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce 
+					ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit 
+					augue convallis felis, vitae elementum nunc mi vitae purus.
+					Pellentesque sem lacus, tincidunt sit amet. Lorem ipsum dolor sit 
+					amet, consectetur adipiscing elit. Fusce ut porttitor odio.
+				</p>
+			</article><!-- /right side -->
 		</section>
 
 		<footer>

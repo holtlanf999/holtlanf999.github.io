@@ -1,0 +1,318 @@
+body{
+	background-image: url(../img/project-background.jpg);
+	background-size: 100%;
+	color: #fff;
+	font-family: $font-content;
+}
+
+.main-header{
+	background-image: url(../img/header-background.jpg);
+	background-size: 100%;
+	height: 65em;
+	text-align: center;
+
+	h1{
+		border-bottom: 1px solid #fff;
+		display: inline-block;
+		font-family: 'rex_bold_';
+		font-size: 5rem;
+		margin: 4em auto 0 auto;
+		overflow: hidden;
+		width: 60%;
+	}
+
+	h3{
+		color: $secondary-color;
+		font-family: 'rex_bold_';
+		font-size: 3rem;
+		font-weight: 100;
+	}
+
+	p{
+		font-size: 2.5rem;
+		margin: 0 auto;
+		width: 40%;
+	}
+}
+
+.section-title{
+	@extend %section-divide;
+
+	h4{
+		font-family: $font-content;
+		font-size: 1.5em;
+		font-weight: 300;
+		margin: 0 auto;
+		overflow: hidden;
+		padding-top: 0.8em;
+	}
+
+	img{
+		margin: 0.4em 0 0 0;
+	}
+}
+
+//for each app container box
+.app-box{
+	@include setsize(500px, 100%);
+	margin: 0 0 0 0;
+	overflow: hidden;
+
+	h2{
+		@extend %box-title;
+	}
+
+	a {
+		@extend %box-link;
+	}
+}
+//for each app container box
+
+// section start-----
+#mywork-websites {
+	background-color: #000;
+	padding-bottom: 2em;
+}
+// section ends--
+
+// for each site container box
+.site-box{
+	@include setsize(500px, 70%);
+	background-color: $primary-color;
+	margin: 1.5em auto 1.5em auto;
+	overflow: hidden;
+
+	h2 {
+		@extend %box-title;
+	}
+
+	a{
+		@extend %box-link;
+	}
+}
+// for each site container box
+
+// section start-----
+#aboutme{
+	@include setsize(500px, 100%);
+	background-color: #eaff00;
+	background-image: url(../img/aboutme-background.png);
+	background-size: 100%;
+	color: #000;
+	text-align: center;
+
+	h2{
+		@include box-title(1, $font-titles, 3rem, 0.8em auto, center, 100%);
+		@extend %little-section-title;
+	}
+
+	img{
+		@include setsize(20em, 20%); 
+		display: block;
+		float: left;
+		margin: 0 0 0 15.5%;
+	}
+
+	p{
+		@include setsize(8em, 40%); 
+		background-color: #000;
+		display: inline-block;
+		color: #fff;
+		float: right;
+		font-family: $font-content;
+		font-size: 1.5rem;
+		margin: 1.7em 13% 0 0;
+		padding: 1%;
+		text-align: left;
+	}
+}
+// section ends--
+
+// section start-----
+#experience{
+	@include setsize(500px, 100%);
+	
+	h2{
+		@extend %little-section-title;
+		@include box-title(1, $font-titles, 3rem, 0.8em auto 0 auto, center, 100%);
+		color: #fff;
+	}
+
+	img{
+		@include setsize(15em, 24%);
+		float: right;
+		margin: 3em 15% 0 0 ; 
+	}
+
+	p{
+		@include setsize(auto, 40%);
+		float: left;
+		font-size: 2rem;
+		margin: 3em 0 0 15%;
+		overflow: hidden;
+	}
+}
+// section ends--
+
+// section start-----
+#contactme{
+	@include setsize(500px, 100%);
+	background-color: $primary-color;
+
+	h2{
+		@extend %little-section-title;
+		@include box-title(1, $font-titles, 3rem, 0.8em auto 0 auto, center, 100%);
+		color: #fff;
+	}
+	
+	form{
+		@include setsize(400px, 100%);
+		color: #000;
+
+		label{
+			display: none;
+		}
+		
+		input{
+			@include setsize(40px, 20%);
+			display: block;
+			float: left;
+			margin: 2em auto 0 25%;
+		}
+
+		textarea{
+			@include setsize(250px, 30%);
+			display: inline-block;
+			float: right;
+			margin: 0 15% 0 0;
+		}
+
+	}
+}
+// section ends--
+
+// section start-----
+#clients{
+	@include setsize(500px, 100%);
+	background-color: #000;
+
+	h2{
+		@extend %little-section-title;
+		@include box-title(1, $font-titles, 3rem, 0.8em auto 0 auto, center, 100%);
+		color: #fff;
+	}
+
+	img{
+		@include setsize(12em, 15%);
+		display: inline-block;
+		margin: 5em 9% 0 9%; 
+		overflow: hidden;
+	}
+}
+// section ends--
+
+footer{
+	@include setsize(5em, 100%);
+	background-color: $primary-color;
+	text-align: center;
+
+	a{
+		@include setsize(3em, 3%);
+		float: right;
+		margin: 0 1% 0 0;
+		padding: 1em 0 0 0;
+		
+
+		img{
+			@include setsize(3em, 100%);
+		}
+	}
+
+	p{
+		display: block;
+		font-size: 0.7rem;
+		margin: 0;
+		overflow: hidden;
+		padding: 6em 0 0 0;
+	}
+}
+
+//index.html ends here...
+
+.breadcrumbs{
+	@extend %link-reset;
+	color: $secondary-color;
+	display: inline-block;
+	margin: 1em 0 0 0;
+}
+
+h2 {
+	@include box-title(1, $font-titles, 4rem, 0 0 0 1.7em, left, 100%);
+}
+
+h3{
+	color: #fff;
+}
+
+.app-design-frame{
+	padding: 2em 5%;
+	overflow: hidden;
+
+	p{
+		@include setsize(auto, 45%);
+		float: left;
+		margin: 0 auto;
+		padding: 1em;
+	}
+
+	img{
+		@include setsize(auto, 45%);
+		float: right;
+		margin: 0 auto;
+		padding: 1em;
+	}
+}
+
+article[class="left-side"]{
+	@include setsize(auto, 45%);
+	@include content-p(#c4c4c4, left, 1em auto, left);
+	display: inline-block;
+	overflow: hidden;
+
+	p{
+		@include setsize(auto, 100%);
+		float: left;
+		margin: 0 auto;
+		padding: 1em;
+	}
+
+	img{
+		@include setsize(auto, 100%);
+		float: left;
+		margin: 0 auto;
+		padding: 1em;
+	}
+
+}
+
+article[class="right-side"]{
+	@include setsize(auto, 40%);
+	@include content-p(#c4c4c4, right, 1.5em auto, left);
+	display: inline-block;
+	overflow: hidden;
+
+	p{
+		@include setsize(auto, 100%);
+	}
+
+	img{
+		@include setsize(auto, 100%);
+	}
+}
+
+.app-develop-experience{
+	background-color: rgba(0, 0, 0, 0.6);
+	display: block;
+	overflow: hidden;
+	padding: 2em 5%;
+}

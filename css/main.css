@@ -1,0 +1,500 @@
+@import url(http://fonts.googleapis.com/css?family=Signika:300);
+/* line 1, ../scss/_placeholders.scss */
+.app-box a, .site-box a, .nav-link, .dropdown-link, .breadcrumbs {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 6, ../scss/_placeholders.scss */
+nav > ul > li .dropdown-items {
+  position: absolute;
+  top: 3em;
+  overflow: hidden;
+  background-color: #353535;
+}
+
+/* line 14, ../scss/_placeholders.scss */
+.section-title {
+  background-color: #4c4c4c;
+  height: 6em;
+  text-align: center;
+}
+
+/* line 22, ../scss/_placeholders.scss */
+.app-box h2, .site-box h2 {
+  font-family: rex_bold_;
+  font-size: 5rem;
+  margin: 2.2em 0 0 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 32, ../scss/_placeholders.scss */
+.app-box a, .site-box a {
+  background-color: #000;
+  border: 2px solid #fff;
+  font-size: 2rem;
+  display: block;
+  margin: 0.5em auto;
+  overflow: hidden;
+  text-align: center;
+  width: 10%;
+}
+
+/* line 45, ../scss/_placeholders.scss */
+#aboutme h2, #experience h2, #contactme h2, #clients h2 {
+  color: #4c4c4c;
+  overflow: hidden;
+  display: inline-block;
+}
+
+@font-face {
+  font-family: 'rex_bold_';
+  src: url("../fonts/rex-bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rex_bold_';
+  src: url("../fonts/rex-bold-webfont.ttf") format("truetype");
+  src: url("../fonts/rex-bold-webfont.woff") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rex_light';
+  src: url("../fonts/rex-light-webfont.ttf") format("truetype");
+  src: url("../fonts/rex-light-webfont.woff") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../scss/_nav.scss */
+nav {
+  background-color: #4c4c4c;
+  height: 5em;
+  opacity: 0.5;
+  width: 100%;
+}
+/* line 7, ../scss/_nav.scss */
+nav .logo {
+  float: left;
+  height: 3em;
+  margin: 1%;
+  width: 5em;
+}
+/* line 14, ../scss/_nav.scss */
+nav > ul {
+  float: right;
+  list-style-type: none;
+  margin: 1em 2% 0 0;
+  width: 38%;
+  font-size: 1.5em;
+}
+/* line 21, ../scss/_nav.scss */
+nav > ul > li {
+  float: left;
+  margin: 0 2% 0 0;
+}
+/* line 25, ../scss/_nav.scss */
+nav > ul > li .dropdown-items {
+  line-height: 1.4em;
+  list-style-type: none;
+  margin-top: 0.2em;
+  padding: 0;
+  max-height: 0;
+}
+
+/* line 39, ../scss/_nav.scss */
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* line 44, ../scss/_nav.scss */
+.dropdown-link {
+  display: inline-block;
+}
+
+/* line 1, ../scss/_images.scss */
+#app-1 {
+  background-image: url(../img/app-centinel1.jpg);
+}
+
+/* line 5, ../scss/_images.scss */
+#app-2 {
+  background-image: url(../img/app-centinel2.jpg);
+}
+
+/* line 9, ../scss/_images.scss */
+#app-3 {
+  background-image: url(../img/app-skoon.jpg);
+}
+
+/* line 13, ../scss/_images.scss */
+#site-1 {
+  background-image: url(../img/iluminada-header.jpg);
+  background-size: 100%;
+}
+
+/* line 18, ../scss/_images.scss */
+#site-2 {
+  background-image: url(../img/centinelasite1.jpg);
+  background-size: 100%;
+}
+
+/* line 23, ../scss/_images.scss */
+#site-3 {
+  background-image: url(../img/Infusionheader.jpg);
+  background-size: 100%;
+}
+
+/* line 1, ../scss/_basics.scss */
+body {
+  background-image: url(../img/project-background.jpg);
+  background-size: 100%;
+  color: #fff;
+  font-family: "Signika", sans-serif;
+}
+
+/* line 8, ../scss/_basics.scss */
+.main-header {
+  background-image: url(../img/header-background.jpg);
+  background-size: 100%;
+  height: 65em;
+  text-align: center;
+}
+/* line 14, ../scss/_basics.scss */
+.main-header h1 {
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  font-family: 'rex_bold_';
+  font-size: 5rem;
+  margin: 4em auto 0 auto;
+  overflow: hidden;
+  width: 60%;
+}
+/* line 24, ../scss/_basics.scss */
+.main-header h3 {
+  color: #ffa100;
+  font-family: 'rex_bold_';
+  font-size: 3rem;
+  font-weight: 100;
+}
+/* line 31, ../scss/_basics.scss */
+.main-header p {
+  font-size: 2.5rem;
+  margin: 0 auto;
+  width: 40%;
+}
+
+/* line 41, ../scss/_basics.scss */
+.section-title h4 {
+  font-family: "Signika", sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 0.8em;
+}
+/* line 50, ../scss/_basics.scss */
+.section-title img {
+  margin: 0.4em 0 0 0;
+}
+
+/* line 56, ../scss/_basics.scss */
+.app-box {
+  height: 500px;
+  width: 100%;
+  margin: 0 0 0 0;
+  overflow: hidden;
+}
+
+/* line 72, ../scss/_basics.scss */
+#mywork-websites {
+  background-color: #000;
+  padding-bottom: 2em;
+}
+
+/* line 79, ../scss/_basics.scss */
+.site-box {
+  height: 500px;
+  width: 70%;
+  background-color: #4c4c4c;
+  margin: 1.5em auto 1.5em auto;
+  overflow: hidden;
+}
+
+/* line 96, ../scss/_basics.scss */
+#aboutme {
+  height: 500px;
+  width: 100%;
+  background-color: #eaff00;
+  background-image: url(../img/aboutme-background.png);
+  background-size: 100%;
+  color: #000;
+  text-align: center;
+}
+/* line 104, ../scss/_basics.scss */
+#aboutme h2 {
+  opacity: 1;
+  font-family: rex_bold_;
+  font-size: 3rem;
+  margin: 0.8em auto;
+  text-align: center;
+  width: 100%;
+}
+/* line 109, ../scss/_basics.scss */
+#aboutme img {
+  height: 20em;
+  width: 20%;
+  display: block;
+  float: left;
+  margin: 0 0 0 15.5%;
+}
+/* line 116, ../scss/_basics.scss */
+#aboutme p {
+  height: 8em;
+  width: 40%;
+  background-color: #000;
+  display: inline-block;
+  color: #fff;
+  float: right;
+  font-family: "Signika", sans-serif;
+  font-size: 1.5rem;
+  margin: 1.7em 13% 0 0;
+  padding: 1%;
+  text-align: left;
+}
+
+/* line 132, ../scss/_basics.scss */
+#experience {
+  height: 500px;
+  width: 100%;
+}
+/* line 135, ../scss/_basics.scss */
+#experience h2 {
+  opacity: 1;
+  font-family: rex_bold_;
+  font-size: 3rem;
+  margin: 0.8em auto 0 auto;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+/* line 141, ../scss/_basics.scss */
+#experience img {
+  height: 15em;
+  width: 24%;
+  float: right;
+  margin: 3em 15% 0 0;
+}
+/* line 147, ../scss/_basics.scss */
+#experience p {
+  height: auto;
+  width: 40%;
+  float: left;
+  font-size: 2rem;
+  margin: 3em 0 0 15%;
+  overflow: hidden;
+}
+
+/* line 158, ../scss/_basics.scss */
+#contactme {
+  height: 500px;
+  width: 100%;
+  background-color: #4c4c4c;
+}
+/* line 162, ../scss/_basics.scss */
+#contactme h2 {
+  opacity: 1;
+  font-family: rex_bold_;
+  font-size: 3rem;
+  margin: 0.8em auto 0 auto;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+/* line 168, ../scss/_basics.scss */
+#contactme form {
+  height: 400px;
+  width: 100%;
+  color: #000;
+}
+/* line 172, ../scss/_basics.scss */
+#contactme form label {
+  display: none;
+}
+/* line 176, ../scss/_basics.scss */
+#contactme form input {
+  height: 40px;
+  width: 20%;
+  display: block;
+  float: left;
+  margin: 2em auto 0 25%;
+}
+/* line 183, ../scss/_basics.scss */
+#contactme form textarea {
+  height: 250px;
+  width: 30%;
+  display: inline-block;
+  float: right;
+  margin: 0 15% 0 0;
+}
+
+/* line 195, ../scss/_basics.scss */
+#clients {
+  height: 500px;
+  width: 100%;
+  background-color: #000;
+}
+/* line 199, ../scss/_basics.scss */
+#clients h2 {
+  opacity: 1;
+  font-family: rex_bold_;
+  font-size: 3rem;
+  margin: 0.8em auto 0 auto;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+/* line 205, ../scss/_basics.scss */
+#clients img {
+  height: 12em;
+  width: 15%;
+  display: inline-block;
+  margin: 5em 9% 0 9%;
+  overflow: hidden;
+}
+
+/* line 214, ../scss/_basics.scss */
+footer {
+  height: 5em;
+  width: 100%;
+  background-color: #4c4c4c;
+  text-align: center;
+}
+/* line 219, ../scss/_basics.scss */
+footer a {
+  height: 3em;
+  width: 3%;
+  float: right;
+  margin: 0 1% 0 0;
+  padding: 1em 0 0 0;
+}
+/* line 226, ../scss/_basics.scss */
+footer a img {
+  height: 3em;
+  width: 100%;
+}
+/* line 231, ../scss/_basics.scss */
+footer p {
+  display: block;
+  font-size: 0.7rem;
+  margin: 0;
+  overflow: hidden;
+  padding: 6em 0 0 0;
+}
+
+/* line 242, ../scss/_basics.scss */
+.breadcrumbs {
+  color: #ffa100;
+  display: inline-block;
+  margin: 1em 0 0 0;
+}
+
+/* line 249, ../scss/_basics.scss */
+h2 {
+  opacity: 1;
+  font-family: rex_bold_;
+  font-size: 4rem;
+  margin: 0 0 0 1.7em;
+  text-align: left;
+  width: 100%;
+}
+
+/* line 253, ../scss/_basics.scss */
+h3 {
+  color: #fff;
+}
+
+/* line 257, ../scss/_basics.scss */
+.app-design-frame {
+  padding: 2em 5%;
+  overflow: hidden;
+}
+/* line 261, ../scss/_basics.scss */
+.app-design-frame p {
+  height: auto;
+  width: 45%;
+  float: left;
+  margin: 0 auto;
+  padding: 1em;
+}
+/* line 268, ../scss/_basics.scss */
+.app-design-frame img {
+  height: auto;
+  width: 45%;
+  float: right;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* line 276, ../scss/_basics.scss */
+article[class="left-side"] {
+  height: auto;
+  width: 45%;
+  color: #c4c4c4;
+  float: left;
+  margin: 1em auto;
+  text-align: left;
+  display: inline-block;
+  overflow: hidden;
+}
+/* line 282, ../scss/_basics.scss */
+article[class="left-side"] p {
+  height: auto;
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  padding: 1em;
+}
+/* line 289, ../scss/_basics.scss */
+article[class="left-side"] img {
+  height: auto;
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* line 298, ../scss/_basics.scss */
+article[class="right-side"] {
+  height: auto;
+  width: 40%;
+  color: #c4c4c4;
+  float: right;
+  margin: 1.5em auto;
+  text-align: left;
+  display: inline-block;
+  overflow: hidden;
+}
+/* line 304, ../scss/_basics.scss */
+article[class="right-side"] p {
+  height: auto;
+  width: 100%;
+}
+/* line 308, ../scss/_basics.scss */
+article[class="right-side"] img {
+  height: auto;
+  width: 100%;
+}
+
+/* line 313, ../scss/_basics.scss */
+.app-develop-experience {
+  background-color: rgba(0, 0, 0, 0);
+  display: block;
+  overflow: hidden;
+  padding: 2em 5%;
+}

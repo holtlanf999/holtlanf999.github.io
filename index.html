@@ -9,22 +9,25 @@
 	</head><!-- /head -->
 	<body>
 
-		<header>
+		<header class="main-header">
 			<nav>
-				<img src="img/logo.png" alt="logo"/>
+				<img src="img/logo.png" class="logo" alt="logo"/>
+				<ul>
+					<li><a href="#" class="nav-link">Home</a></li>
 
-				<a class="dropdown" href="#">My work</a>
-                <ul class="dropdown-items">
-                    <li><a href="productos/eventos.html">Web Sites</a></li>
-                    <li><a href="productos/exteriores.html">Mobile apps</a></li>
-                    <li><a href="productos/interiores.html">Photography</a></li>
-                    <li><a href="productos/led.html">3D Renders</a></li>
-                </ul>
+		            <li>
+		            	<a href="#" class="nav-link" id= "my-work">My work</a>
+		            	<ul class="dropdown-items">
+	                    	<li><a href="website-iluminada.html" class="dropdown-link">Web Sites</a></li>
+	                    	<li><a href="apps-centinel.html" class="dropdown-link">Mobile apps</a></li>
+		           		</ul>
+		           	</li>
 
-				<a href="#">Experience</a>
-				<a href="#">About me</a>
-				<a href="#">Contact</a>
-				<a href="#">Clients</a>
+					<li><a href="#experience" class="nav-link">Experience</a></li>
+					<li><a href="#aboutme" class="nav-link">About me</a></li>
+					<li><a href="#contactme" class="nav-link">Contact</a></li>
+					<li><a href="#clients" class="nav-link">Clients</a></li>
+				 </ul>
 			</nav><!-- /nav -->
 
 			<h1>Lanford Gabriel - Portfolio</h1>
@@ -35,110 +38,67 @@
 		<section id="mywork-apps" class="content-section">
 			<header class="section-title">
 				<h4>My work - Apps</h4>
-				<img src="img/downarrow.png"/>
+				<img src="img/arrow-down.png"/>
 			</header>
 
-			<div class="app-rectangle">
-				<img src="img/centinel1.jpg" alt="app image"/>
-				<img src="img/centinel2.jpg" alt="app image"/>
-				<h2 class="app-title">Centinela app - version 1.0</h2>
-				<a href="#">See More...</a>
+			<div class="app-box" id="app-1">
+				<h2>Centinela app - version 1.0</h2>
+				<a href="apps-centinel.html">More ></a>
 			</div>
 
-			<div class="app-rectangle">
-				<img src="img/centinel2-1.jpg" alt="app image"/>
-				<img src="img/centinel2-2.jpg" alt="app image"/>
-				<h2 class="app-title">Centinela app - version 1.0</h2>
-				<a href="#">See More...</a>
+			<div class="app-box" id="app-2">
+				<h2>Centinela app - version 2.0</h2>
+				<a href="#">More ></a>
 			</div>
 
-			<div class="app-rectangle">
-				<img src="img/skoon1.jpg" alt="app image"/>
-				<img src="img/skoon2.jpg" alt="app image"/>
-				<h2 class="app-title"></h2>
-				<a href="#">See More...</a>
+			<div class="app-box" id="app-3">
+				<h2>skoon - recycling app</h2>
+				<a href="#">More ></a>
 			</div>
 		</section><!-- /mywork-apps -->
 
 		<section id="mywork-websites" class="content-section">
 			<header class="section-title">
 				<h4>My work - Web Sites</h4>
-				<img src="img/downarrow.png"/>
+				<img src="img/arrow-down.png"/>
 			</header>
 
-			<div class="left-projects-column">
-				<div class="project-frame-small">
-					<h2>Project name</h2>
-					<a href="#">More about this work...</a>
-					<div class="visit-site-container">
-						<img src="img/link-image.png" alt="link to project"/>
-						<a href="#">Go to the site</a>
-					</div>
-				</div>
-				<div class="project-frame-small">
-					<h2>Project name</h2>
-					<a href="#">More about this work...</a>
-					<div class="visit-site-container">
-						<img src="img/link-image.png" alt="link to project"/>
-						<a href="#">Go to the site</a>
-					</div>
-				</div>
-				<div class="project-frame-small">
-					<h2>Project name</h2>
-					<a href="#">More about this work...</a>
-					<div class="visit-site-container">
-						<img src="img/link-image.png" alt="link to project"/>
-						<a href="#">Go to the site</a>
-					</div>
-				</div>
+			<div class="site-box" id="site-1">
+				<h2>La Iluminada Web Site</h2>
+				<a href="website-iluminada.html">More ></a>
 			</div>
 
-			<div class="right-projects-column">
-				<div class="project-frame-small">
-					<h2>Project name</h2>
-					<a href="#">More about this work...</a>
-					<div class="visit-site-container">
-						<img src="img/link-image.png" alt="link to project"/>
-						<a href="#">Go to the site</a>
-					</div>
-				</div>
-				<div class="project-frame-small">
-					<h2>Project name</h2>
-					<a href="#">More about this work...</a>
-					<div class="visit-site-container">
-						<img src="img/link-image.png" alt="link to project"/>
-						<a href="#">Go to the site</a>
-					</div>
-				</div>
-				<div class="project-frame-small">
-					<h2>Project name</h2>
-					<a href="#">More about this work...</a>
-					<div class="visit-site-container">
-						<img src="img/link-image.png" alt="link to project"/>
-						<a href="#">Go to the site</a>
-					</div>
-				</div>
+			<div class="site-box" id="site-2">
+				<h2>Centinela app v1.0 web site</h2>
+				<a href="#">More ></a>
+			</div>
+
+			<div class="site-box" id="site-3">
+				<h2>Practice Site - Infusion</h2>
+				<a href="#">More ></a>
 			</div>
 		</section><!-- /mywork-websites -->
 
 		<section id="aboutme" class="content-section">
 			<h2>About me</h2>
-			<img src="img/face.png"/>
-			<p>short description here</p>
-			
+			<img src="img/devface.png"/>
+			<p>Since childhood I showed interest in technology, making my way through electronics, telecommunications and programming careers, I ran into web development, and immediately knew that was my place. It was like love at first glance. Working with passion and dedication for you and me, because this is more than a job, it's something that makes me feel great.</p>
 		</section><!-- /aboutme -->
 
 		<section id="experience" class="content-section">
 			<h2>Experience</h2>
-			<p>description here</p>
-			<img src="img/web-technologies.png"/>
-			
+			<p> I have intermediate knowledge of HTML 5, CSS 3, SASS and JS 5. I also have experience using Jquery, JSON, AJAX, Bootstrap among other libraries and programming methods.</p>
+			<img src="img/web-technologies.png"/>	
 		</section><!-- /aboutme -->
 
 		<section id="contactme" class="content-section">
+			<h2>Contact</h2>
 			<form>
+				<label for="name">name</label>
 				<input type="text" name="nombre" placeholder="Name"/>
+				<label for="email">email</label>
 				<input type="email" name="email" placeholder="e-mail"/>
+				<label for="company">company</label>
 				<input type="text" name="company" placeholder="Company name"/>
 
 				<textarea placeholder="comments"></textarea>
