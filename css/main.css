@@ -493,7 +493,7 @@ article[class="right-side"] img {
 
 /* line 313, ../scss/_basics.scss */
 .app-develop-experience {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.6);
   display: block;
   overflow: hidden;
   padding: 2em 5%;
