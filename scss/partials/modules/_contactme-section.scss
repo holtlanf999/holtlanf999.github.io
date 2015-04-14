@@ -23,19 +23,21 @@
 		input{
 			@include setsize(2em, 20%);
 			border: none;
-			border-radius: 3em;
+			border-radius: 0.5em;
 			display: block;
 			margin: 0 0 1.5em 25%;
+			text-indent: 1em;
 		}
 
 		textarea{
-			@include setsize(14em, 20%);
+			@include setsize(12.8em, 20%);
 			border: none;
 			border-radius: 0.5em;
 			display: block;
 			float: right;
 			margin: -11em 25% 5em 0;
 			resize: vertical;
+			text-indent: 1em;
 		}
 	}
 }

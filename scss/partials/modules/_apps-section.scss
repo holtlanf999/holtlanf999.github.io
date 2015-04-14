@@ -1,8 +1,8 @@
 // _apps-section stylesheet
 
 //for each app container box
-.app-box{
-	@include setsize(500px, 100%);
+.app-project-presentation{
+	@include setsize(auto, 100%);
 	margin: 0 0 0 0;
 	overflow: hidden;
 

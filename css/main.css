@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Signika:300);
 /* line 1, ../scss/partials/_placeholders.scss */
-.app-box a, .site-box a, .breadcrumbs, .nav-link, .dropdown-link {
+.app-project-presentation a, .site-box a, .breadcrumbs, .nav-link, .dropdown-link {
   color: #fff;
   text-decoration: none;
 }
@@ -14,38 +14,47 @@ nav > ul > li .dropdown-items {
 }
 
 /* line 14, ../scss/partials/_placeholders.scss */
-.section-title {
+.mywork-section-title {
   background-color: #4c4c4c;
   height: 6em;
   text-align: center;
+  overflow: hidden;
 }
 
-/* line 22, ../scss/partials/_placeholders.scss */
-.app-box h2, .site-box h2 {
+/* line 23, ../scss/partials/_placeholders.scss */
+.app-project-presentation h2, .site-box h2 {
   font-family: rex_bold_;
   font-size: 5rem;
-  margin: 2.2em 0 0 0;
+  margin: 1.1em 0 0 0;
   text-align: center;
   width: 100%;
 }
 
-/* line 32, ../scss/partials/_placeholders.scss */
-.app-box a, .site-box a {
+/* line 33, ../scss/partials/_placeholders.scss */
+.app-project-presentation a, .site-box a {
   background-color: #000;
   border: 2px solid #fff;
-  font-size: 2rem;
+  font-size: 1.2rem;
   display: block;
-  margin: 0.5em auto;
+  margin: 0.5em auto 4.4em auto;
   overflow: hidden;
   text-align: center;
-  width: 10%;
+  width: 6%;
 }
 
-/* line 45, ../scss/partials/_placeholders.scss */
+/* line 46, ../scss/partials/_placeholders.scss */
 #aboutme h2, #experience h2, #contactme h2, #clients h2 {
   color: #4c4c4c;
   overflow: hidden;
   display: inline-block;
+}
+
+/* line 56, ../scss/partials/_placeholders.scss */
+.project-main-title {
+  background-color: rgba(0, 0, 0, 0);
+  background-size: 100%;
+  margin: 0;
+  padding: 0 0 0 8%;
 }
 
 @font-face {
@@ -113,7 +122,7 @@ body {
 }
 
 /* line 14, ../scss/partials/_basics.scss */
-.section-title h4 {
+.mywork-section-title h4 {
   font-family: 'Signika', sans-serif;
   font-size: 1.5em;
   font-weight: 300;
@@ -122,7 +131,7 @@ body {
   padding-top: 0.8em;
 }
 /* line 23, ../scss/partials/_basics.scss */
-.section-title img {
+.mywork-section-title img {
   margin: 0.4em 0 0 0;
 }
 
@@ -180,85 +189,39 @@ h3 {
   color: #fff;
 }
 
-/* line 77, ../scss/partials/_basics.scss */
-article[class="left-side"] {
-  height: auto;
-  width: 45%;
-  color: #c4c4c4;
-  float: left;
-  margin: 1em auto;
-  text-align: left;
-  display: inline-block;
-  overflow: hidden;
-}
-/* line 83, ../scss/partials/_basics.scss */
-article[class="left-side"] p {
-  height: auto;
-  width: 100%;
-  float: left;
-  margin: 0 auto;
-  padding: 1em;
-}
-/* line 90, ../scss/partials/_basics.scss */
-article[class="left-side"] img {
-  height: auto;
-  width: 100%;
-  float: left;
-  margin: 0 auto;
-  padding: 1em;
-}
-
-/* line 99, ../scss/partials/_basics.scss */
-article[class="right-side"] {
-  height: auto;
-  width: 40%;
-  color: #c4c4c4;
-  float: right;
-  margin: 1.5em auto;
-  text-align: left;
-  display: inline-block;
-  overflow: hidden;
-}
-/* line 105, ../scss/partials/_basics.scss */
-article[class="right-side"] p {
-  height: auto;
-  width: 100%;
-}
-/* line 109, ../scss/partials/_basics.scss */
-article[class="right-side"] img {
-  height: auto;
-  width: 100%;
-}
-
 /* line 3, ../scss/partials/modules/_header.scss */
 .main-header {
+  height: auto;
+  width: 100%;
   background-image: url(../img/header-background.jpg);
   background-size: 100%;
-  height: 65em;
+  overflow: hidden;
   text-align: center;
 }
-/* line 9, ../scss/partials/modules/_header.scss */
+/* line 10, ../scss/partials/modules/_header.scss */
 .main-header h1 {
   border-bottom: 1px solid #fff;
   display: inline-block;
   font-family: 'rex_bold_';
   font-size: 5rem;
-  margin: 4em auto 0 auto;
+  margin: 0 25%;
   overflow: hidden;
-  width: 60%;
+  padding: 4em 0 0 0;
+  width: 50%;
 }
-/* line 19, ../scss/partials/modules/_header.scss */
+/* line 21, ../scss/partials/modules/_header.scss */
 .main-header h3 {
   color: #ffa100;
   font-family: 'rex_bold_';
   font-size: 3rem;
   font-weight: 100;
 }
-/* line 26, ../scss/partials/modules/_header.scss */
+/* line 28, ../scss/partials/modules/_header.scss */
 .main-header p {
-  font-size: 2.5rem;
-  margin: 0 auto;
+  height: auto;
   width: 40%;
+  font-size: 2.5rem;
+  margin: 0  auto 4.5em auto;
 }
 
 /* line 1, ../scss/partials/modules/_nav.scss */
@@ -308,8 +271,8 @@ nav > ul > li .dropdown-items {
 }
 
 /* line 4, ../scss/partials/modules/_apps-section.scss */
-.app-box {
-  height: 500px;
+.app-project-presentation {
+  height: auto;
   width: 100%;
   margin: 0 0 0 0;
   overflow: hidden;
@@ -323,24 +286,26 @@ nav > ul > li .dropdown-items {
 
 /* line 11, ../scss/partials/modules/_sites-section.scss */
 .site-box {
-  height: 500px;
+  height: auto;
   width: 70%;
   background-color: #4c4c4c;
-  margin: 1.5em auto 1.5em auto;
+  margin: 0 auto 1.5em auto;
+  padding: 1.5em;
   overflow: hidden;
 }
 
 /* line 2, ../scss/partials/modules/_aboutme-section.scss */
 #aboutme {
-  height: 500px;
+  height: auto;
   width: 100%;
   background-color: #eaff00;
   background-image: url(../img/aboutme-background.png);
   background-size: 100%;
   color: #000;
+  overflow: hidden;
   text-align: center;
 }
-/* line 10, ../scss/partials/modules/_aboutme-section.scss */
+/* line 11, ../scss/partials/modules/_aboutme-section.scss */
 #aboutme h2 {
   opacity: 1;
   font-family: rex_bold_;
@@ -349,35 +314,36 @@ nav > ul > li .dropdown-items {
   text-align: center;
   width: 100%;
 }
-/* line 15, ../scss/partials/modules/_aboutme-section.scss */
+/* line 16, ../scss/partials/modules/_aboutme-section.scss */
 #aboutme img {
-  height: 20em;
+  height: auto;
   width: 20%;
   display: block;
   float: left;
-  margin: 0 0 0 15.5%;
+  margin: 0 0 3em 15.5%;
 }
-/* line 22, ../scss/partials/modules/_aboutme-section.scss */
+/* line 23, ../scss/partials/modules/_aboutme-section.scss */
 #aboutme p {
-  height: 8em;
+  height: auto;
   width: 40%;
-  background-color: #000;
   display: inline-block;
-  color: #fff;
+  color: #000;
   float: right;
   font-family: 'Signika', sans-serif;
   font-size: 1.5rem;
-  margin: 1.7em 13% 0 0;
+  font-weight: 600;
+  margin: 1.7em 13% 1em 0;
   padding: 1%;
   text-align: left;
 }
 
 /* line 2, ../scss/partials/modules/_experience-section.scss */
 #experience {
-  height: 500px;
+  height: auto;
   width: 100%;
+  overflow: hidden;
 }
-/* line 5, ../scss/partials/modules/_experience-section.scss */
+/* line 6, ../scss/partials/modules/_experience-section.scss */
 #experience h2 {
   opacity: 1;
   font-family: rex_bold_;
@@ -387,20 +353,20 @@ nav > ul > li .dropdown-items {
   width: 100%;
   color: #fff;
 }
-/* line 11, ../scss/partials/modules/_experience-section.scss */
+/* line 12, ../scss/partials/modules/_experience-section.scss */
 #experience img {
-  height: 15em;
+  height: auto;
   width: 24%;
   float: right;
-  margin: 3em 15% 0 0;
+  margin: 1em 15% 3em 0;
 }
-/* line 17, ../scss/partials/modules/_experience-section.scss */
+/* line 18, ../scss/partials/modules/_experience-section.scss */
 #experience p {
   height: auto;
   width: 40%;
   float: left;
   font-size: 2rem;
-  margin: 3em 0 0 15%;
+  margin: 1.5em 0 0 15%;
   overflow: hidden;
 }
 
@@ -438,13 +404,14 @@ nav > ul > li .dropdown-items {
   height: 2em;
   width: 20%;
   border: none;
-  border-radius: 3em;
+  border-radius: 0.5em;
   display: block;
   margin: 0 0 1.5em 25%;
+  text-indent: 1em;
 }
-/* line 31, ../scss/partials/modules/_contactme-section.scss */
+/* line 32, ../scss/partials/modules/_contactme-section.scss */
 #contactme form textarea {
-  height: 14em;
+  height: 12em;
   width: 20%;
   border: none;
   border-radius: 0.5em;
@@ -452,9 +419,10 @@ nav > ul > li .dropdown-items {
   float: right;
   margin: -11em 25% 5em 0;
   resize: vertical;
+  text-indent: 1em;
 }
 
-/* line 43, ../scss/partials/modules/_contactme-section.scss */
+/* line 45, ../scss/partials/modules/_contactme-section.scss */
 #submit-btn {
   background-color: #eaff00;
   color: #000;
@@ -498,12 +466,17 @@ nav > ul > li .dropdown-items {
   width: 100%;
 }
 
-/* line 1, ../scss/partials/modules/_apps-project-page.scss */
+/* line 5, ../scss/partials/modules/_apps-project-page.scss */
+p.left-side-content {
+  margin: 0 0 0 8%;
+}
+
+/* line 9, ../scss/partials/modules/_apps-project-page.scss */
 .app-design-frame {
-  padding: 2em 5%;
+  padding: 2em 8%;
   overflow: hidden;
 }
-/* line 5, ../scss/partials/modules/_apps-project-page.scss */
+/* line 13, ../scss/partials/modules/_apps-project-page.scss */
 .app-design-frame p {
   height: auto;
   width: 45%;
@@ -511,7 +484,7 @@ nav > ul > li .dropdown-items {
   margin: 0 auto;
   padding: 1em;
 }
-/* line 12, ../scss/partials/modules/_apps-project-page.scss */
+/* line 20, ../scss/partials/modules/_apps-project-page.scss */
 .app-design-frame img {
   height: auto;
   width: 45%;
@@ -520,10 +493,148 @@ nav > ul > li .dropdown-items {
   padding: 1em;
 }
 
-/* line 20, ../scss/partials/modules/_apps-project-page.scss */
+/* line 28, ../scss/partials/modules/_apps-project-page.scss */
 .app-develop-experience {
   background-color: rgba(0, 0, 0, 0);
-  display: block;
   overflow: hidden;
-  padding: 2em 5%;
+  padding: 2em 10%;
+}
+
+/* line 35, ../scss/partials/modules/_apps-project-page.scss */
+article.left-side-content {
+  height: auto;
+  width: 48%;
+  color: #c4c4c4;
+  float: left;
+  margin: 1em auto;
+  text-align: left;
+  display: inline-block;
+  overflow: hidden;
+}
+/* line 41, ../scss/partials/modules/_apps-project-page.scss */
+article.left-side-content p {
+  height: auto;
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  padding: 1em;
+}
+/* line 48, ../scss/partials/modules/_apps-project-page.scss */
+article.left-side-content p.left-side-content {
+  padding: 0 0 0 5%;
+}
+/* line 52, ../scss/partials/modules/_apps-project-page.scss */
+article.left-side-content img {
+  height: auto;
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* line 61, ../scss/partials/modules/_apps-project-page.scss */
+article.right-side-content {
+  height: auto;
+  width: 48%;
+  color: #c4c4c4;
+  float: right;
+  margin: 1.5em auto;
+  text-align: left;
+  display: inline-block;
+  overflow: hidden;
+}
+/* line 67, ../scss/partials/modules/_apps-project-page.scss */
+article.right-side-content p {
+  height: auto;
+  width: 100%;
+}
+/* line 71, ../scss/partials/modules/_apps-project-page.scss */
+article.right-side-content img {
+  height: auto;
+  width: 100%;
+}
+
+/* line 5, ../scss/partials/modules/_sites-project-page.scss */
+p.left-side-content {
+  margin: 0 0 0 8%;
+}
+
+/* line 9, ../scss/partials/modules/_sites-project-page.scss */
+.site-design-frame {
+  padding: 2em 8%;
+  overflow: hidden;
+}
+/* line 13, ../scss/partials/modules/_sites-project-page.scss */
+.site-design-frame img {
+  height: auto;
+  width: 45%;
+  float: left;
+}
+/* line 18, ../scss/partials/modules/_sites-project-page.scss */
+.site-design-frame h3 {
+  height: auto;
+  width: 45%;
+  float: right;
+}
+/* line 23, ../scss/partials/modules/_sites-project-page.scss */
+.site-design-frame p {
+  height: auto;
+  width: 45%;
+  float: right;
+}
+
+/* line 29, ../scss/partials/modules/_sites-project-page.scss */
+.app-develop-challenge {
+  padding: 0 8%;
+}
+/* line 32, ../scss/partials/modules/_sites-project-page.scss */
+.app-develop-challenge h2 {
+  margin: 0 0 0.5em 0;
+}
+/* line 36, ../scss/partials/modules/_sites-project-page.scss */
+.app-develop-challenge p {
+  height: auto;
+  width: 45%;
+}
+/* line 40, ../scss/partials/modules/_sites-project-page.scss */
+.app-develop-challenge img {
+  height: auto;
+  width: 45%;
+}
+/* line 44, ../scss/partials/modules/_sites-project-page.scss */
+.app-develop-challenge article {
+  height: auto;
+  width: 100%;
+  margin: 2em 0;
+  overflow: hidden;
+  padding: 2em 0;
+}
+
+/* line 53, ../scss/partials/modules/_sites-project-page.scss */
+.wide-content-banner {
+  height: 20em !important;
+  width: 100% !important;
+  margin: 2em 0;
+}
+
+/* line 58, ../scss/partials/modules/_sites-project-page.scss */
+.left {
+  display: inline-block;
+  float: left;
+}
+
+/* line 63, ../scss/partials/modules/_sites-project-page.scss */
+.right {
+  display: inline-block;
+  float: right;
+}
+
+/* line 68, ../scss/partials/modules/_sites-project-page.scss */
+.app-develop-experience {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/* line 71, ../scss/partials/modules/_sites-project-page.scss */
+.app-develop-experience p, .app-develop-experience img {
+  height: auto;
+  width: 45%;
 }

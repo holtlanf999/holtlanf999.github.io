@@ -1,9 +1,10 @@
 // header stylesheet
 
 .main-header{
+	@include setsize(auto, 100%);
 	background-image: url(../img/header-background.jpg);
 	background-size: 100%;
-	height: 65em;
+	overflow: hidden;
 	text-align: center;
 
 	h1{
@@ -11,9 +12,10 @@
 		display: inline-block;
 		font-family: 'rex_bold_';
 		font-size: 5rem;
-		margin: 4em auto 0 auto;
+		margin: 0 25%;
 		overflow: hidden;
-		width: 60%;
+		padding: 4em 0 0 0;
+		width: 50%;
 	}
 
 	h3{
@@ -23,9 +25,9 @@
 		font-weight: 100;
 	}
 
-	p{
+	p{	
+		@include setsize(auto, 40%);
 		font-size: 2.5rem;
-		margin: 0 auto;
-		width: 40%;
+		margin: 0  auto 4.5em auto;
 	}
 }

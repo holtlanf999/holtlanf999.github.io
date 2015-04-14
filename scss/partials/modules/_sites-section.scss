@@ -9,9 +9,10 @@
 
 // for each site container box
 .site-box{
-	@include setsize(500px, 70%);
+	@include setsize(auto, 70%);
 	background-color: $primary-color;
-	margin: 1.5em auto 1.5em auto;
+	margin: 0 auto 1.5em auto;
+	padding: 1.5em;
 	overflow: hidden;
 
 	h2 {

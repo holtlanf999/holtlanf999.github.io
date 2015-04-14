@@ -8,7 +8,7 @@ body{
 }
 
 // top title for my work- apps and Web Sites
-.section-title{
+.mywork-section-title{
 	@extend %section-divide;
 
 	h4{
@@ -71,42 +71,4 @@ h2 {
 // general style for h2 elements
 h3{
 	color: #fff;
-}
-
-// styles for left side column articles in project pages
-article[class="left-side"]{
-	@include setsize(auto, 45%);
-	@include content-p(#c4c4c4, left, 1em auto, left);
-	display: inline-block;
-	overflow: hidden;
-
-	p{
-		@include setsize(auto, 100%);
-		float: left;
-		margin: 0 auto;
-		padding: 1em;
-	}
-
-	img{
-		@include setsize(auto, 100%);
-		float: left;
-		margin: 0 auto;
-		padding: 1em;
-	}
-}
-
-// styles for right side column articles in project pages
-article[class="right-side"]{
-	@include setsize(auto, 40%);
-	@include content-p(#c4c4c4, right, 1.5em auto, left);
-	display: inline-block;
-	overflow: hidden;
-
-	p{
-		@include setsize(auto, 100%);
-	}
-
-	img{
-		@include setsize(auto, 100%);
-	}
 }
