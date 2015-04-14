@@ -1,0 +1,35 @@
+// section start-----
+#aboutme{
+	@include setsize(500px, 100%);
+	background-color: #eaff00;
+	background-image: url(../img/aboutme-background.png);
+	background-size: 100%;
+	color: #000;
+	text-align: center;
+
+	h2{
+		@include box-title(1, rex_bold_, 3rem, 0.8em auto, center, 100%);
+		@extend %little-section-title;
+	}
+
+	img{
+		@include setsize(20em, 20%); 
+		display: block;
+		float: left;
+		margin: 0 0 0 15.5%;
+	}
+
+	p{
+		@include setsize(8em, 40%); 
+		background-color: #000;
+		display: inline-block;
+		color: #fff;
+		float: right;
+		font-family: 'Signika', sans-serif;
+		font-size: 1.5rem;
+		margin: 1.7em 13% 0 0;
+		padding: 1%;
+		text-align: left;
+	}
+}
+// section ends--

@@ -1,0 +1,17 @@
+// _apps-section stylesheet
+
+//for each app container box
+.app-box{
+	@include setsize(500px, 100%);
+	margin: 0 0 0 0;
+	overflow: hidden;
+
+	h2{
+		@extend %box-title;
+	}
+
+	a {
+		@extend %box-link;
+	}
+}
+//for each app container box

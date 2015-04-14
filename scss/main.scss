@@ -1,19 +1,24 @@
 // Most important imported first
 
-@import '_variables.scss';
+// partials
+@import "partials/_variables";
+@import "partials/_placeholders";
+@import "partials/_mixins";
+@import "partials/_fonts";
+@import "partials/_images";
+@import "partials/_basics";
 
-@import '_placeholders.scss';
-
-@import '_mixins.scss';
-
-@import '_fonts.scss';
-
-@import '_nav.scss';
-
-@import '_images.scss';
-
-@import '_basics.scss';
-
+// Modules
+@import "partials/modules/_header";
+@import "partials/modules/_nav";
+@import "partials/modules/_apps-section";
+@import "partials/modules/_sites-section";
+@import "partials/modules/_aboutme-section";
+@import "partials/modules/_experience-section";
+@import "partials/modules/_contactme-section";
+@import "partials/modules/_clients-section";
+@import "partials/modules/_apps-project-page";
+@import "partials/modules/_sites-project-page";
 
 
 

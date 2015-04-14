@@ -1,0 +1,47 @@
+// section start-----
+#contactme{
+	@include setsize(auto, 100%);
+	background-color: $primary-color;
+	overflow: hidden;
+
+	h2{
+		@extend %little-section-title;
+		@include box-title(1, rex_bold_, 3rem, 0.8em auto 1em auto, center, 100%);
+		color: #fff;
+	}
+	
+	form{
+		@include setsize(auto, 100%);
+		color: #000;
+
+		label{
+			color: #fff;
+			margin: 0 0 1% 25%;
+			display: none;
+		}
+		
+		input{
+			@include setsize(2em, 20%);
+			border: none;
+			border-radius: 3em;
+			display: block;
+			margin: 0 0 1.5em 25%;
+		}
+
+		textarea{
+			@include setsize(14em, 20%);
+			border: none;
+			border-radius: 0.5em;
+			display: block;
+			float: right;
+			margin: -11em 25% 5em 0;
+			resize: vertical;
+		}
+	}
+}
+
+#submit-btn{
+	background-color: #eaff00;
+	color: #000;
+}
+// section ends--
