@@ -155,7 +155,7 @@ body {
   background-image: url(../img/project-background.jpg);
   background-size: 100%;
   color: #fff;
-  font-family: "Signika", sans-serif;
+  font-family: 'Signika', sans-serif;
 }
 
 /* line 8, ../scss/_basics.scss */
@@ -191,7 +191,7 @@ body {
 
 /* line 41, ../scss/_basics.scss */
 .section-title h4 {
-  font-family: "Signika", sans-serif;
+  font-family: 'Signika', sans-serif;
   font-size: 1.5em;
   font-weight: 300;
   margin: 0 auto;
@@ -261,7 +261,7 @@ body {
   display: inline-block;
   color: #fff;
   float: right;
-  font-family: "Signika", sans-serif;
+  font-family: 'Signika', sans-serif;
   font-size: 1.5rem;
   margin: 1.7em 13% 0 0;
   padding: 1%;
@@ -359,23 +359,29 @@ body {
   width: 100%;
   color: #fff;
 }
-/* line 205, ../scss/_basics.scss */
-#clients img {
+/* line 206, ../scss/_basics.scss */
+#clients ul li {
   height: 12em;
-  width: 15%;
+  width: 25%;
   display: inline-block;
-  margin: 5em 9% 0 9%;
-  overflow: hidden;
+  list-style: none;
+  margin-top: 0 auto;
+  width: 20%;
+}
+/* line 213, ../scss/_basics.scss */
+#clients ul li img {
+  display: inline-block;
+  margin: 5em 0 0 0;
 }
 
-/* line 214, ../scss/_basics.scss */
+/* line 223, ../scss/_basics.scss */
 footer {
   height: 5em;
   width: 100%;
   background-color: #4c4c4c;
   text-align: center;
 }
-/* line 219, ../scss/_basics.scss */
+/* line 228, ../scss/_basics.scss */
 footer a {
   height: 3em;
   width: 3%;
@@ -383,12 +389,12 @@ footer a {
   margin: 0 1% 0 0;
   padding: 1em 0 0 0;
 }
-/* line 226, ../scss/_basics.scss */
+/* line 235, ../scss/_basics.scss */
 footer a img {
   height: 3em;
   width: 100%;
 }
-/* line 231, ../scss/_basics.scss */
+/* line 240, ../scss/_basics.scss */
 footer p {
   display: block;
   font-size: 0.7rem;
@@ -397,14 +403,14 @@ footer p {
   padding: 6em 0 0 0;
 }
 
-/* line 242, ../scss/_basics.scss */
+/* line 251, ../scss/_basics.scss */
 .breadcrumbs {
   color: #ffa100;
   display: inline-block;
   margin: 1em 0 0 0;
 }
 
-/* line 249, ../scss/_basics.scss */
+/* line 258, ../scss/_basics.scss */
 h2 {
   opacity: 1;
   font-family: rex_bold_;
@@ -414,17 +420,17 @@ h2 {
   width: 100%;
 }
 
-/* line 253, ../scss/_basics.scss */
+/* line 262, ../scss/_basics.scss */
 h3 {
   color: #fff;
 }
 
-/* line 257, ../scss/_basics.scss */
+/* line 266, ../scss/_basics.scss */
 .app-design-frame {
   padding: 2em 5%;
   overflow: hidden;
 }
-/* line 261, ../scss/_basics.scss */
+/* line 270, ../scss/_basics.scss */
 .app-design-frame p {
   height: auto;
   width: 45%;
@@ -432,7 +438,7 @@ h3 {
   margin: 0 auto;
   padding: 1em;
 }
-/* line 268, ../scss/_basics.scss */
+/* line 277, ../scss/_basics.scss */
 .app-design-frame img {
   height: auto;
   width: 45%;
@@ -441,7 +447,7 @@ h3 {
   padding: 1em;
 }
 
-/* line 276, ../scss/_basics.scss */
+/* line 285, ../scss/_basics.scss */
 article[class="left-side"] {
   height: auto;
   width: 45%;
@@ -452,7 +458,7 @@ article[class="left-side"] {
   display: inline-block;
   overflow: hidden;
 }
-/* line 282, ../scss/_basics.scss */
+/* line 291, ../scss/_basics.scss */
 article[class="left-side"] p {
   height: auto;
   width: 100%;
@@ -460,7 +466,7 @@ article[class="left-side"] p {
   margin: 0 auto;
   padding: 1em;
 }
-/* line 289, ../scss/_basics.scss */
+/* line 298, ../scss/_basics.scss */
 article[class="left-side"] img {
   height: auto;
   width: 100%;
@@ -469,7 +475,7 @@ article[class="left-side"] img {
   padding: 1em;
 }
 
-/* line 298, ../scss/_basics.scss */
+/* line 307, ../scss/_basics.scss */
 article[class="right-side"] {
   height: auto;
   width: 40%;
@@ -480,20 +486,20 @@ article[class="right-side"] {
   display: inline-block;
   overflow: hidden;
 }
-/* line 304, ../scss/_basics.scss */
+/* line 313, ../scss/_basics.scss */
 article[class="right-side"] p {
   height: auto;
   width: 100%;
 }
-/* line 308, ../scss/_basics.scss */
+/* line 317, ../scss/_basics.scss */
 article[class="right-side"] img {
   height: auto;
   width: 100%;
 }
 
-/* line 313, ../scss/_basics.scss */
+/* line 322, ../scss/_basics.scss */
 .app-develop-experience {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0);
   display: block;
   overflow: hidden;
   padding: 2em 5%;

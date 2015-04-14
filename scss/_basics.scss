@@ -2,7 +2,7 @@ body{
 	background-image: url(../img/project-background.jpg);
 	background-size: 100%;
 	color: #fff;
-	font-family: $font-content;
+	font-family: 'Signika', sans-serif;
 }
 
 .main-header{
@@ -39,7 +39,7 @@ body{
 	@extend %section-divide;
 
 	h4{
-		font-family: $font-content;
+		font-family: 'Signika', sans-serif;
 		font-size: 1.5em;
 		font-weight: 300;
 		margin: 0 auto;
@@ -102,7 +102,7 @@ body{
 	text-align: center;
 
 	h2{
-		@include box-title(1, $font-titles, 3rem, 0.8em auto, center, 100%);
+		@include box-title(1, rex_bold_, 3rem, 0.8em auto, center, 100%);
 		@extend %little-section-title;
 	}
 
@@ -119,7 +119,7 @@ body{
 		display: inline-block;
 		color: #fff;
 		float: right;
-		font-family: $font-content;
+		font-family: 'Signika', sans-serif;
 		font-size: 1.5rem;
 		margin: 1.7em 13% 0 0;
 		padding: 1%;
@@ -134,7 +134,7 @@ body{
 	
 	h2{
 		@extend %little-section-title;
-		@include box-title(1, $font-titles, 3rem, 0.8em auto 0 auto, center, 100%);
+		@include box-title(1, rex_bold_, 3rem, 0.8em auto 0 auto, center, 100%);
 		color: #fff;
 	}
 
@@ -161,7 +161,7 @@ body{
 
 	h2{
 		@extend %little-section-title;
-		@include box-title(1, $font-titles, 3rem, 0.8em auto 0 auto, center, 100%);
+		@include box-title(1, rex_bold_, 3rem, 0.8em auto 0 auto, center, 100%);
 		color: #fff;
 	}
 	
@@ -198,15 +198,24 @@ body{
 
 	h2{
 		@extend %little-section-title;
-		@include box-title(1, $font-titles, 3rem, 0.8em auto 0 auto, center, 100%);
+		@include box-title(1, rex_bold_, 3rem, 0.8em auto 0 auto, center, 100%);
 		color: #fff;
 	}
-
-	img{
-		@include setsize(12em, 15%);
-		display: inline-block;
-		margin: 5em 9% 0 9%; 
-		overflow: hidden;
+	
+	ul{
+		li{
+			@include setsize(12em, 25%);
+			display: inline-block;
+			list-style: none;
+			margin-top: 0 auto;
+			width: 20%;
+			
+			img{
+				display: inline-block;
+				margin: 5em 0 0 0; 
+				
+			}
+		}
 	}
 }
 // section ends--
@@ -247,7 +256,7 @@ footer{
 }
 
 h2 {
-	@include box-title(1, $font-titles, 4rem, 0 0 0 1.7em, left, 100%);
+	@include box-title(1, rex_bold_, 4rem, 0 0 0 1.7em, left, 100%);
 }
 
 h3{
