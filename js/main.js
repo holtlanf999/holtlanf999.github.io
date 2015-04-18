@@ -21,24 +21,44 @@ var app = new function(){
 	// this function writes the page content through JSON (pics and text).
 	function DrawPageContent(data){
 		// index data
-
 		// loading aboutme section data
 		$('#aboutme').append(
 			(data.pageContent.img[0].homePage[0].devFace) +
 			(data.pageContent.textContent[0].homePage[0].aboutMeText)
 		);
-
+		
 		// loading experience section data
 		$('#experience').append(
 			(data.pageContent.textContent[0].homePage[1].experienceText) + 
 			(data.pageContent.img[0].homePage[1].webTecnologies)
 		);
-
 		// index data
 
+		// app-pages data
+		$('#app-intro').append(data.pageContent.img[1].introImg);
+
+		$('#visual-design').append(
+			(data.pageContent.textContent[1].appsPage[0].visualDesign[0].tl1) +
+			(data.pageContent.textContent[1].appsPage[0].visualDesign[1].phar1) +
+			(data.pageContent.textContent[1].appsPage[0].visualDesign[2].tl2) +
+			(data.pageContent.textContent[1].appsPage[0].visualDesign[3].phar2)
+		);
+
+		$('#proc-pt1').append(
+			(data.pageContent.textContent[1].appsPage[1].articles[0].tl1) +
+			(data.pageContent.img[1].appsPage[1].articles[0].proc1) +
+			(data.pageContent.textContent[1].appsPage[1].articles[1].phar1) +
+			(data.pageContent.img[1].appsPage[1].articles[1].proc2)
+		);
+
+		$('#proc-pt2').append(
+			(data.pageContent.textContent[1].appsPage[1].articles[2].phar2) +
+			(data.pageContent.img[1].appsPage[1].articles[2].proc3) +
+			(data.pageContent.textContent[1].appsPage[1].articles[3].phar3)
+		);
+		// app-pages data
 
 		// website-pages data
-
 		$('#starting-tech').append(
 			(data.pageContent.img[2].websitesPage[0].headerPicture) +
 			(data.pageContent.textContent[2].websitesPage[0].tl1) +
@@ -72,9 +92,7 @@ var app = new function(){
 			(data.pageContent.textContent[2].websitesPage[9].development[2].tl2) +
 			(data.pageContent.textContent[2].websitesPage[9].development[3].phar2)
 		);
-
 		// website-pages data
-
 	}//DrawPageContent ends here 
 	
 	// this function validates the little form on index.html

@@ -7,7 +7,14 @@
 				{"webTecnologies" : "<img src=\"img/web-technologies.png\"/>"}
 			]},
 
-			{"appsPage" : []},
+			{"appsPage" : [
+				{"introImg" : "<img src=\"img/imagen.png\" class=\"right-side-content\" alt=\"app screenshots\"/>"},
+				{"articles" : [
+					{"proc1" : "<img src=\"img/imagen.png\" alt=\"code preview\"/>"},
+					{"proc2" : "<img src=\"img/imagen.png\" alt=\"image\"/>"},
+					{"proc3" : "<img src=\"img/imagen.png\" alt=\"image\"/>"}
+				]}
+			]},
 
 			{"websitesPage" : [
 				{"headerPicture" : "<img src=\"img/imagen.png\" alt=\"header picture\"/>"},
@@ -28,7 +35,20 @@
 				{"experienceText" : "<p>I have intermediate knowledge of HTML 5, CSS 3, SASS and JS 5. I also have experience using Jquery, JSON, AJAX, Bootstrap among other libraries and programming methods.</p>"}
 			]},
 
-			{"appsPage" : []},
+			{"appsPage" : [
+				{"visualDesign" : [
+					{"tl1" : "<h3>Creating the visual Design:</h3>"},
+					{"phar1" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus. Pellentesque sem lacus, tincidunt sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus. Pellentesque sem lacus, tincidunt sit amet.</p>"},
+					{"tl2" : "<h3>Making this app something beautiful to use:</h3>"},
+					{"phar2" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus.Pellentesque sem lacus, tincidunt sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed efficitur. velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus. Pellentesque sem lacus, tincidunt sit amet.</p>"}
+				]},
+				{"articles" : [
+					{"tl1" : "<h3>My experience on this process</h3>"},	
+					{"phar1" : "<p>Pellentesque sem lacus, tincidunt sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed efficitur. velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus. Pellentesque sem lacus, tincidunt sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus.Pellentesque sem lacus, tincidunt sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed efficitur. velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus. Pellentesque sem lacus, tincidunt sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus.</p>"},
+					{"phar2" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus.Pellentesque sem lacus, tincidunt sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed efficitur. velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus. Pellentesque sem lacus, tincidunt sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus.Pellentesque sem lacus, tincidunt sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed efficitur. velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus. Pellentesque sem lacus, tincidunt sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus.</p>"},					
+					{"phar3" : "<p>Pellentesque sem lacus, tincidunt sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed efficitur. velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus. Pellentesque sem lacus, tincidunt sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus.Pellentesque sem lacus, tincidunt sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut porttitor odio.</p>"}
+				]}
+			]},
 
 			{"websitesPage" : [
 				{"tl1" : "<h3>Starting with new technologies</h3>"},
