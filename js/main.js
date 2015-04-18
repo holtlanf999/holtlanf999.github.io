@@ -1,25 +1,10 @@
-<<<<<<< HEAD
-//Namespace
+// app module -closure for privacy
 
-var app = {};
-
-//Namespace
-
-// app module
-
-app = ( function () {
-
-	var validate = '';
+var app = ( function () {
 
 	//jQuery document ready
 	$(document).ready(function(){
 
-=======
-// Variable that enclosure all the JS code
-var app = new function(){
-	// normal jQuery document ready
-	$(document).ready(function(){
->>>>>>> origin/master
 		// AJAX request call
 		$.ajax({
 			type: "GET",
@@ -32,15 +17,10 @@ var app = new function(){
 			errors:function(jqXHR,textStatus,errorThrown) {
 				console.log("textStatus" +textStatus+"\nError"+errorThrown);
 			}
-<<<<<<< HEAD
 		}); //$.ajax ends here
-=======
-		}); //$.ajax ends here 
-	formCheck();
->>>>>>> origin/master
 	});// document ready ends here
 
-	// this function writes the page content through JSON (pics and text).
+	// this function writes the page content through JSON (pics and text). private method
 	function DrawPageContent(data){
 		// index data
 		// loading aboutme section data
@@ -48,11 +28,7 @@ var app = new function(){
 			(data.pageContent.img[0].homePage[0].devFace) +
 			(data.pageContent.textContent[0].homePage[0].aboutMeText)
 		);
-<<<<<<< HEAD
 
-=======
-		
->>>>>>> origin/master
 		// loading experience section data
 		$('#experience').append(
 			(data.pageContent.textContent[0].homePage[1].experienceText) + 
@@ -121,9 +97,9 @@ var app = new function(){
 		// website-pages data
 	}//DrawPageContent ends here 
 	
-<<<<<<< HEAD
-	//this function validates the little form on index.html
+	//this function validates the little form on index.html private method
 	function formCheck(){
+
 		$('#submit-btn').on('click', function(){
 			if(
 				document.forms['contactForm']['nombre'].value.length > 0 &&
@@ -134,19 +110,9 @@ var app = new function(){
 			} else { 
 				alert('Please fill the contact form with the requested data');
 			}
-		});	
+		});
 	}
 	// formCheck ends here
-
-}()); // app ends here
+	
+})(); // app ends here
 //app module end here
-
-
-
-=======
-	// this function validates the little form on index.html
-	function formCheck(){
-		console.log("hola");
-	}// formCheck ends here
-}();// app ends here
->>>>>>> origin/master
