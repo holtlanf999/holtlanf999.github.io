@@ -1,0 +1,26 @@
+// section start-----
+#experience{
+	@include setsize(auto, 100%);
+	overflow: hidden;
+	
+	h2{
+		@extend %little-section-title;
+		@include box-title(1, rex_bold_, 3rem, 0.8em auto 0 auto, center, 100%);
+		color: #fff;
+	}
+
+	img{
+		@include setsize(auto, 24%);
+		float: right;
+		margin: 1em 15% 3em 0 ; 
+	}
+
+	p{
+		@include setsize(auto, 40%);
+		float: left;
+		font-size: 2rem;
+		margin: 1.5em 0 0 15%;
+		overflow: hidden;
+	}
+}
+// section ends--

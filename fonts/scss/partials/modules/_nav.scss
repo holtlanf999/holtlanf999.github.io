@@ -1,0 +1,48 @@
+nav{
+	background-color:$primary-color;
+	height: 5em;
+	opacity: 0.5;
+	width: 100%;
+
+	.logo{
+		float: left;
+		height: 3em;
+		margin: 1%;
+		width: 5em;
+	}
+
+	> ul{
+		float: right;
+		list-style-type: none;
+		margin: 1em 2% 0 0;
+		width: 38%;
+		font-size: 1.5em;
+
+		> li{
+			float: left;
+			margin: 0 2% 0 0;
+
+			.dropdown-items{
+				@extend %dropdown-box;
+				line-height: 1.4em;
+				list-style-type: none;
+				margin-top: 0.2em;
+				padding: 0;
+				max-height: 0;
+			}
+		}
+	}
+}
+
+.nav-link{
+	@extend %link-reset;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.dropdown-link{
+	@extend %link-reset;
+	display: inline-block;
+}
+

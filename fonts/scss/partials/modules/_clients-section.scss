@@ -1,0 +1,30 @@
+// section start-----
+#clients{
+	@include setsize(auto, 100%);
+	background-color: #000;
+	overflow: hidden;
+
+	h2{
+		@extend %little-section-title;
+		@include box-title(1, rex_bold_, 3rem, 0.8em auto 0 auto, center, 100%);
+		color: #fff;
+	}
+	
+	ul{
+		@include setsize(auto, 100%);
+		margin: 0 auto;
+
+		li{
+			@include setsize(auto, 20%);
+			display: inline-block;
+			list-style: none;
+			margin: 0 5%;
+			padding: 2.5em 0;
+		}
+
+		img{
+			@include setsize(auto, 100%);
+		}
+	}
+}
+// section ends--
