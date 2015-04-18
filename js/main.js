@@ -1,4 +1,4 @@
-// app module -closure for privacy
+// app module -closure for privacy - constructor pattern.
 
 var app = ( function () {
 
@@ -20,7 +20,7 @@ var app = ( function () {
 		}); //$.ajax ends here
 	});// document ready ends here
 
-	// this function writes the page content through JSON (pics and text). private method
+	// this function writes the page content through JSON (pics and text). private method - function pattern.
 	function DrawPageContent(data){
 		// index data
 		// loading aboutme section data
@@ -95,24 +95,20 @@ var app = ( function () {
 			(data.pageContent.textContent[2].websitesPage[9].development[3].phar2)
 		);
 		// website-pages data
-	}//DrawPageContent ends here 
-	
-	//this function validates the little form on index.html private method
-	function formCheck(){
-
-		$('#submit-btn').on('click', function(){
-			if(
-				document.forms['contactForm']['nombre'].value.length > 0 &&
-			 	document.forms['contactForm']['email'].value.length > 0 && 
-			 	document.forms['contactForm']['comment'].value.length > 0
-			){
-				alert('Comment Send');
-			} else { 
-				alert('Please fill the contact form with the requested data');
-			}
-		});
-	}
-	// formCheck ends here
-	
+	}//DrawPageContent ends here 	
 })(); // app ends here
 //app module end here
+
+//this function validates the little form on index.html private method
+function formCheck(){
+	if(
+		document.forms['contactForm']['nombre'].value.length > 0 &&
+	 	document.forms['contactForm']['email'].value.length > 0 && 
+	 	document.forms['contactForm']['comment'].value.length > 0
+	){
+		alert('Comment Send');
+	} else { 
+		alert('Please fill the contact form with the requested data');
+	}
+}
+// formCheck ends here
