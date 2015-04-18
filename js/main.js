@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // app module -closure for privacy
 
 var app = ( function () {
@@ -116,3 +117,5 @@ var app = ( function () {
 	
 })(); // app ends here
 //app module end here
+=======
+>>>>>>> parent of 74e01f0... validador de formulario
