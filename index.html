@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
+
 		<meta charset="utf-8" />
+		<!-- CSS -->
 		<link rel="stylesheet" href="css/normalize.css"/>
 		<link rel="stylesheet" href="css/main.css"/>
-
+		<!-- /CSS -->
 		<title>LGM-Portfolio</title>
 	</head><!-- /head -->
+
 	<body>
 
 		<header class="main-header">
 			<nav>
-				<img src="img/logo.png" class="logo" alt="logo"/>
+			<img src="img/logo.png" class="logo" alt="logo"/>
 				<ul>
 					<li><a href="#" class="nav-link">Home</a></li>
 
 		            <li>
 		            	<a href="#" class="nav-link" id= "my-work">My work</a>
 		            	<ul class="dropdown-items">
-	                    	<li><a href="website-iluminada.html" class="dropdown-link">Web Sites</a></li>
-	                    	<li><a href="apps-centinel.html" class="dropdown-link">Mobile apps</a></li>
+		                	<li><a href="website-iluminada.html" class="dropdown-link">Web Sites</a></li>
+		                	<li><a href="apps-centinel.html" class="dropdown-link">Mobile apps</a></li>
 		           		</ul>
 		           	</li>
 
@@ -81,19 +85,17 @@
 
 		<section id="aboutme" class="content-section">
 			<h2>About me</h2>
-			<img src="img/devface.png"/>
-			<p>Since childhood I showed interest in technology, making my way through electronics, telecommunications and programming careers, I ran into web development, and immediately knew that was my place. It was like love at first glance. Working with passion and dedication for you and me, because this is more than a job, it's something that makes me feel great.</p>
+			<!-- JS content injection (img+p) -->
 		</section><!-- /aboutme -->
 
 		<section id="experience" class="content-section">
 			<h2>Experience</h2>
-			<p> I have intermediate knowledge of HTML 5, CSS 3, SASS and JS 5. I also have experience using Jquery, JSON, AJAX, Bootstrap among other libraries and programming methods.</p>
-			<img src="img/web-technologies.png"/>	
+			<!-- JS content injection (p+img) -->	
 		</section><!-- /aboutme -->
 
 		<section id="contactme" class="content-section">
 			<h2>Contact</h2>
-			<form>
+			<form name="contactForm">
 				<label for="name">Name</label>
 				<input type="text" name="nombre" placeholder="Name"/>
 				<label for="email">Email</label>
@@ -101,8 +103,10 @@
 				<label for="company">Company</label>
 				<input type="text" name="company" placeholder="Company name"/>
 
-				<textarea placeholder="Comments"></textarea>
-				<input id="submit-btn" type="submit" value="Send message"></input>
+				<textarea name="comment" placeholder="Comments"></textarea>
+
+				<input id="submit-btn" type="button" value="Send message"/>
+
 			</form><!-- /form -->
 		</section><!-- /contactme -->
 
@@ -113,7 +117,6 @@
 				<li><img src="img/logo.png"></li>
 				<li><img src="img/logo.png"></li>
 			</ul>
-
 		</section><!-- /clients -->
 
 		<footer>
@@ -126,9 +129,11 @@
 			<!-- <p>Copyright 2015 Lanford Gabriel Murillo. Sarcasm Inc.</p> -->
 		</footer><!-- /footer -->
 
-	<!-- Scripts -->
-		<script type="text/javascript" src="js/main.js"></script>
-		<script src="js/jquery-2.1.1.min.js"></script>
-	<!-- Scripts -->
-	</body><!-- /body -->
+		<!-- Scripts -->
+			<script src="js/jquery.js"></script>
+			<!-- // <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script> -->
+			<script type="text/javascript" src="js/main.js"></script>
+		<!-- /Scripts -->
+	</body>
+
 </html><!-- /html -->
