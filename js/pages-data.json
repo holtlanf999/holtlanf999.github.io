@@ -1,0 +1,57 @@
+{
+	"pageContent" : {
+		"img" : [
+
+			{"homePage" : [
+				{"devFace" : "<img src=\"img/devface.png\"/>"},
+				{"webTecnologies" : "<img src=\"img/web-technologies.png\"/>"}
+			]},
+
+			{"appsPage" : []},
+
+			{"websitesPage" : [
+				{"headerPicture" : "<img src=\"img/imagen.png\" alt=\"header picture\"/>"},
+				{"illusion" : "<img class=\"wide-content-banner\" src=\"img/imagen.png\" alt=\"Illusion\">"},
+				{"challenge" : "<img class=\"right\" src=\"img/imagen.png\" alt=\"challenge\">"},
+				{"article":"<img class=\"left\" src=\"img/imagen.png\" alt=\"challenge\">"},
+				{"development" : [
+					{"development1": "<img class=\"right\" src=\"img/imagen.png\" alt=\"development\">"},
+					{"development2": "<img class=\"left\" src=\"img/imagen.png\" alt=\"development\">"}
+				]}
+			]}
+		],
+
+		"textContent" : [
+
+			{"homePage" : [
+				{"aboutMeText" : "<p>Since childhood I showed interest in technology, making my way through electronics, telecommunications and programming careers, I ran into web development, and immediately knew that was my place. It was like love at first glance. Working with passion and dedication for you and me, because this is more than a job, it's something that makes me feel great.</p>"},
+				{"experienceText" : "<p>I have intermediate knowledge of HTML 5, CSS 3, SASS and JS 5. I also have experience using Jquery, JSON, AJAX, Bootstrap among other libraries and programming methods.</p>"}
+			]},
+
+			{"appsPage" : []},
+
+			{"websitesPage" : [
+				{"tl1" : "<h3>Starting with new technologies</h3>"},
+				{"phar1" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Fusce ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus. Pellentesque sem lacus, tincidunt sit amet.</p>"},
+				{"phar2" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Fusce ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus. Pellentesque sem lacus, tincidunt sit amet.</p>"},
+				{"phar3" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Fusce ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus. Pellentesque sem lacus, tincidunt sit amet.</p>"},
+				{"phar4" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Fusce ut porttitor odio. Sed efficitur, velit nec vulputate placerat, velit augue convallis felis, vitae elementum nunc mi vitae purus. Pellentesque sem lacus, tincidunt sit amet.</p>"},
+				{"tl2" : "<h2>The Illusion of light</h2>"},
+				{"tl3" : "<h3>The challenge</h3>"},
+				{"phar5" : "<p class=\"left\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quibusdam modi, hic architecto ullam aspernatur minus quos ratione. Sunt assumenda saepe vero, cumque recusandae delectus accusamus magni impedit excepturi voluptatum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quibusdam modi, hic architecto ullam aspernatur minus quos ratione. Sunt assumenda saepe vero, cumque recusandae delectus accusamus magni impedit excepturi voluptatum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quibusdam modi, hic architecto ullam aspernatur minus quos ratione. Sunt assumenda saepe vero, cumque recusandae delectus accusamus magni impedit excepturi voluptatum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quibusdam modi, hic architecto ullam aspernatur minus quos ratione. nt assumenda saepe vero, cumque recusandae delectus accusamus magni impedit excepturi voluptatum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quibusdam modi, hic architecto ullam aspernatur minus quos ratione. Sunt assumenda saepe vero, cumque recusandae delectus accusamus magni impedit excepturi voluptatum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quibusdam modi, hic architecto ullam aspernatur minus quos ratione. Sunt assumenda saepe vero, cumque recusandae delectus accusamus magni impedit excepturi voluptatum!</p>"},
+				{"article" : [
+					{"tl1" : "<h3 class=\"right\">Low cost and high effieciency in mind</h3>"},
+					{"phar1" : "<p class=\"right\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quidem animi amet commodi, dolorum sunt voluptate soluta ipsam! Quaerat amet quidem us autem nam quaerat laboriosam dolor deleniti incidunt quibusdam. Natus quod cupiditate officia magnam sapiente. consectetur adipisicing elit. Quasi, modi necessitatibus laborum, eius cum, velit voluptatibus autem nam quaerat animi, recusandae ducimus voluptate nostrum ullam quos unde ab.</p>"},
+					{"tl2" : "<h3 class=\"right\">From styletile to reality</h3>"},
+					{"phar2" : "<p class=\"right\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quidem  us autem nam quaerat laboriosam dolor deleniti incidunt quibusdam. Natus quod cupiditate officia magnam sapiente. consectetur adipisicing elit. Quasi, modi necessitatibus laborum, eius cum, velit voluptatibus autem nam quaeratanimi amet commodi, dolorum sunt voluptate soluta ipsam! Quaerat amet quidem animi, recusandae ducimus voluptate nostrum ullam quos unde ab.</p>"}
+				]},
+				{"development" : [
+					{"tl1" : "<h3>My experience on this process</h3>"},
+					{"phar1" : "<p class=\"left\">Lorem ipsum dolor sit amet, us autem nam quaerat laboriosam dolor deleniti incidunt quibusdam. Natus quod cupiditate officia magnam sapiente. consectetur adipisicing elit. Quasi, modi necessitatibus laborum, eius cum, velit voluptatibus autem nam quaerat consectetur adipisicing elit. Eum tempora aliquam est, accusantium ipsum saepe deleniti tenetur, aspernatur neque reprehenderit, officia ex praesentium consequatur sequi nostrum excepturi minus rerum consequuntur!</p>"},
+					{"tl2" : "<h3 class=\"right\">Coding with the best</h3>"},
+					{"phar2" : "<p class=\"right\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, modi necessitatibus laborum, eius cum, velit voluptatibus autem nam quaerat laboriosam dolor deleniti incidunt quibusdam. Natus quod cupiditate officia magnam sapiente. consectetur adipisicing elit. Quasi, modi necessitatibus laborum, eius cum, velit voluptatibus autem nam quaerat consectetur adipisicing elit. Quasi, modi necessitatibus laborum, eius cum, velit voluptatibus autem nam quaerat</p>"}
+				]}
+			]}
+		]
+	}
+}
