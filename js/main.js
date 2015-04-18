@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Namespace
 
 var app = {};
@@ -13,6 +14,12 @@ app = ( function () {
 	//jQuery document ready
 	$(document).ready(function(){
 
+=======
+// Variable that enclosure all the JS code
+var app = new function(){
+	// normal jQuery document ready
+	$(document).ready(function(){
+>>>>>>> origin/master
 		// AJAX request call
 		$.ajax({
 			type: "GET",
@@ -25,7 +32,12 @@ app = ( function () {
 			errors:function(jqXHR,textStatus,errorThrown) {
 				console.log("textStatus" +textStatus+"\nError"+errorThrown);
 			}
+<<<<<<< HEAD
 		}); //$.ajax ends here
+=======
+		}); //$.ajax ends here 
+	formCheck();
+>>>>>>> origin/master
 	});// document ready ends here
 
 	// this function writes the page content through JSON (pics and text).
@@ -36,7 +48,11 @@ app = ( function () {
 			(data.pageContent.img[0].homePage[0].devFace) +
 			(data.pageContent.textContent[0].homePage[0].aboutMeText)
 		);
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> origin/master
 		// loading experience section data
 		$('#experience').append(
 			(data.pageContent.textContent[0].homePage[1].experienceText) + 
@@ -105,6 +121,7 @@ app = ( function () {
 		// website-pages data
 	}//DrawPageContent ends here 
 	
+<<<<<<< HEAD
 	//this function validates the little form on index.html
 	function formCheck(){
 		$('#submit-btn').on('click', function(){
@@ -126,3 +143,10 @@ app = ( function () {
 
 
 
+=======
+	// this function validates the little form on index.html
+	function formCheck(){
+		console.log("hola");
+	}// formCheck ends here
+}();// app ends here
+>>>>>>> origin/master
