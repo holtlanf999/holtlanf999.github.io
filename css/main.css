@@ -51,7 +51,7 @@ nav > ul > li .dropdown-items {
 
 /* line 56, ../scss/partials/_placeholders.scss */
 .project-main-title {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2);
   background-size: 100%;
   margin: 0;
   padding: 0 0 0 8%;
@@ -411,7 +411,7 @@ nav > ul > li .dropdown-items {
 }
 /* line 32, ../scss/partials/modules/_contactme-section.scss */
 #contactme form textarea {
-  height: 12em;
+  height: 12.8em;
   width: 20%;
   border: none;
   border-radius: 0.5em;
@@ -495,7 +495,7 @@ p.left-side-content {
 
 /* line 28, ../scss/partials/modules/_apps-project-page.scss */
 .app-develop-experience {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.6);
   overflow: hidden;
   padding: 2em 10%;
 }
